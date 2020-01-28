@@ -1,0 +1,33 @@
+$primary : #FF7259;
+
+.gradient-btn{ 
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    border: none;
+    float: left;
+    color: #FFF; 
+    cursor: pointer;
+    box-shadow: 2px 5px 2px -2px black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+
+.btn-3{
+    background-image: linear-gradient(to right top, #eb4f12, #e74717, #e23f1b, #de361e, #d92d21); 
+}
+
+ .btn-3:hover {
+    background-image: linear-gradient(to right top, #b84b20, #e74717, #e23f1b, #b43825, #ad251b); 
+}
+
+@import '../src/containers/HomePage/HomePageStyles.module.scss';
+@import '../src/containers/AboutMe/AboutMeStyles.module.scss';
+@import '../src/component/VerticalTimeline/verticalTimeline.module.scss';
+
+// Import all bulma component / element
+@import '../node_modules/bulma/bulma.sass';
+// Import Extensions
+@import "../node_modules/bulma-extensions/src/sass/index.sass";

@@ -1,0 +1,17 @@
+.Footer{
+    background-color:#FF6959;
+    bottom: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    padding:30px 30px 50px 20px;
+}
+
+.socialMedia {
+    height: 40px;
+    padding-right: 10px;
+}   
+
+.Footer p {
+    color: white;
+}

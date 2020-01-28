@@ -1,0 +1,23 @@
+.NavBarItems {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow:column;
+    height: 100%;
+    float: left;
+}
+
+@media(min-width:500px){
+    .NavBarItems {
+        flex-flow: row;
+        float: right;
+    }
+}
+
+@media(max-width:499px){
+    .NavBarItems {
+        align-items: center;
+        width: 100%;
+    }
+}

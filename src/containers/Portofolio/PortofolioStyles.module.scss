@@ -1,0 +1,11 @@
+@import '../../../node_modules//bulma/sass/utilities/_all.sass';
+
+.PortofolioStyle {
+    @include desktop {
+        margin:120px 50px;
+    }
+    @include mobile {
+        margin:100px 30px;
+        text-align: center;
+    }
+}

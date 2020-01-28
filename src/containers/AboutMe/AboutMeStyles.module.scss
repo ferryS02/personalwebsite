@@ -1,0 +1,118 @@
+@import '../../../node_modules//bulma/sass/utilities/_all.sass';
+
+.AboutMe {
+    @include desktop {
+        margin:120px;
+    }
+    @include mobile {
+        margin:100px 30px;
+        text-align: center;
+    }
+}
+
+.language,
+.skills,
+.organization,
+.working-experinece,
+.achievement-honor {
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+
+.cvName {
+    @include desktop {
+        margin: auto;
+    }
+    @include mobile {
+        margin-top:-30px;
+    }
+}
+
+.cvName .characters {
+    margin-right: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FF7259;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 1rem;
+}
+
+.characters {
+    border-radius: 50%;
+    display: inline-block;
+    @include desktop {
+        height: 100px;
+        width: 100px;
+        border: 10px solid #FF7259;
+    }
+    @include mobile {
+        display: none;
+    }
+}
+
+.career-objective {
+    font-size: 14px;
+}
+
+.cvPict {
+    @include desktop {
+        max-height: 250px;
+    }
+    @include mobile {
+        max-height: 250px;
+    }
+}
+
+.skills .lists{
+    @include desktop {
+        margin: 0 50px 0 0;
+    }
+    @include mobile {
+        margin: 0px;
+    }
+}
+
+.skills .lists .columns{
+    @include mobile {
+        display: inline-flex;
+        width: 100%;
+    }
+}
+
+.skills .lists .columns span{
+    @include mobile {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.career-objective {
+    padding: 0 0 20px 0;
+}
+
+.working-experience .tags {
+    @include mobile {
+        display: grid;
+        padding-bottom: 15px;
+    }
+}
+
+.working-experience .tags.has-addons .tag{
+    @include mobile {
+        margin-bottom: 0px;
+    }
+}
+
+.achievement-honor .tags{
+    @include mobile {
+        display: grid;
+        padding-bottom: 15px;
+    }
+}
+
+.achievement-honor .tags.has-addons .tag{
+    @include mobile {
+        margin-bottom: 0px;
+    }
+}

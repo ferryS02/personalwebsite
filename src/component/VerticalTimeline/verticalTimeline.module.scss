@@ -1,0 +1,12 @@
+@import '../../../node_modules//bulma/sass/utilities/_all.sass';
+
+.verticalTimeLine p{
+    text-align: left;
+}
+
+.timeline-marker p {
+    margin-left: -40px !important;
+    margin-top: -5px !important;
+}
+
+
