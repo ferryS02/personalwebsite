@@ -1,0 +1,30 @@
+.Maintenance{
+    display:flex;
+}
+
+
+@media(max-width:499px){
+    .Maintenance{
+        flex-flow: column;
+    }
+
+    .textMaintenance{
+        order: 2;
+    }
+    
+    .imgMaintenance{
+        order: 1;
+    }
+    
+    .imgMaintenance img{
+        max-height: 250px;
+    }
+
+    .textMaintenance button{
+        float: initial;
+    }
+
+    .textMaintenance h1{
+        font-size: 30px !important ;
+    }
+}

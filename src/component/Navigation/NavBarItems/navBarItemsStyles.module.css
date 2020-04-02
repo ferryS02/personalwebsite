@@ -8,6 +8,14 @@
     float: left;
 }
 
+.loginBtn {
+    border-radius: 0 !important;
+    box-shadow: none;
+    color: white !important;
+    height: 100%;
+    padding: 10px;
+}
+
 @media(min-width:500px){
     .NavBarItems {
         flex-flow: row;

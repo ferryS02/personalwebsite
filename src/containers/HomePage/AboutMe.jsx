@@ -7,7 +7,7 @@ const AboutMe = (props) => (
             <p>
             "Do it with all your heart, mind and abilities with a happy heart"
             </p>
-            <a href="/aboutme"><button className={cx("gradient-btn btn-3")}>AboutMe</button></a>
+            <a href="/aboutme"><button className={cx("main-btn btn-3")}>AboutMe</button></a>
         </div>
     </div>
 );

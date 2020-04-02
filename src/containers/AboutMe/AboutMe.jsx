@@ -75,7 +75,7 @@ class AboutMe extends Component {
                     </div>
                 </div>
                 <div class="journey is-hidden-mobile">
-                    <HorizontalTimeline/>
+                    {/* <HorizontalTimeline/> */}
                 </div>
                 <div class="organization">
                     <h3 class="title is-3">Education Background</h3>

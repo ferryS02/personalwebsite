@@ -1,6 +1,18 @@
 $primary : #FF7259;
 
-.gradient-btn{ 
+.add-margin-auto{
+    margin: auto;
+}
+
+.add-margin-top-20px{
+    margin-top: 20px;
+}
+
+.add-padding-bottom-20px{
+    padding-bottom: 20px;
+}
+
+.main-btn{ 
     line-height: 35px;
     padding-left: 20px;
     padding-right: 20px;
@@ -23,7 +35,12 @@ $primary : #FF7259;
     background-image: linear-gradient(to right top, #b84b20, #e74717, #e23f1b, #b43825, #ad251b); 
 }
 
+.btn-{
+    background-image: linear-gradient(to right top, #eb4f12, #e74717, #e23f1b, #de361e, #d92d21); 
+}
+
 @import '../src/containers/HomePage/HomePageStyles.module.scss';
+@import '../src/containers/Blog/BlogStyles.module.scss';
 @import '../src/containers/AboutMe/AboutMeStyles.module.scss';
 @import '../src/component/VerticalTimeline/verticalTimeline.module.scss';
 
@@ -31,3 +48,4 @@ $primary : #FF7259;
 @import '../node_modules/bulma/bulma.sass';
 // Import Extensions
 @import "../node_modules/bulma-extensions/src/sass/index.sass";
+
