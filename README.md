@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+Personal Website 
+Techstack : ReactJs , Bulma for styling framework, docker for containerization and deployed using AWS s3 
+>>>>>>> 9c631dccc1baff51b935618bf68adb52ae6d0ef9
