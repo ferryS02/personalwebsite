@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import cvPhoto from '../../assets/img/AboutMe/foto_ferry.png';
 import classes from './AboutMeStyles.module.scss';
 import reactJs from '../../assets/img/tools/reactjslogo.png';
-import HorizontalTimeline from '../../component/HorizontalTimeline/HorizontalTimeline';
+// import HorizontalTimeline from '../../component/HorizontalTimeline/HorizontalTimeline';
 import VerticalTimeline from '../../component/VerticalTimeline/VerticalTimeline';
 import linkedin from '../../assets/img/Icon/linkedin.png';
 import googleplus from '../../assets/img/Icon/google-plus2.png'
@@ -29,7 +29,7 @@ class AboutMe extends Component {
                             Moreover, I would like to utilize my knowledge, skills, experiences, and leadership as well as my passion for achieving company goals. 
                             I have experience in software engineering and programming. Interest in Software Engineering, Software Architecture, Cloud Computing and Artificial Inteligence.
                         </p>
-                        <div className={classes.characters}>
+                        {/* <div className={classes.characters}>
                             <p>Hard Worker</p>
                         </div>
                         <div className={classes.characters}>
@@ -43,8 +43,8 @@ class AboutMe extends Component {
                         </div>
                         <div className={classes.characters}>
                             <p>Adaptable</p>
-                        </div>
-                        <div class="is-hidden-desktop field is-grouped is-grouped-multiline">
+                        </div> */}
+                        <div class="field is-grouped is-grouped-multiline">
                             <div class="control">
                                 <div class="tags has-addons">
                                 <span class="tag is-info">Hard Worker</span>
@@ -205,11 +205,60 @@ class AboutMe extends Component {
                 <div class="columns organization">
                     <div class="column is-half">
                         <h3 class="title is-3">Organization</h3>
-                        <VerticalTimeline/>
+                        <VerticalTimeline
+                            year={"2017"}
+                            organization={"AIESEC in Indonesia"}
+                            role={"National Supporting Team - IT"}
+                        />
+                        <VerticalTimeline
+                            year={"2017"}
+                            organization={"Science and Mathematics Faculty Christian Community"}
+                            role={"Public Relation Staff"}
+                        />
+                        <VerticalTimeline
+                            year={"2016"}
+                            organization={"AIESEC in Diponegoro University"}
+                            role={"Digital Public Relation Manager"}
+                        />
+                        <VerticalTimeline
+                            year={"2015"}
+                            organization={"AIESEC in Diponegoro University"}
+                            role={"National Supporting Team - IT"}
+                        />
                     </div>
                     <div class="column is-half">
                         <h3 class="title is-3">Committee and Vounter Experience </h3>
-                        <VerticalTimeline/>
+                        <VerticalTimeline
+                            year={"2017"}
+                            organization={"Ruang Kreatif PMK FSM Undip"}
+                            role={"Event Chairman"}
+                        />
+                        <VerticalTimeline
+                            year={"2017"}
+                            organization={"Sidang Pemuda NHKBP Semarang"}
+                            role={"Publication and Documentation Coordinator"}
+                        />
+                        <VerticalTimeline
+                            year={"2016"}
+                            organization={"Walk for SDGs Semarang"}
+                            role={"Design Coordinator"}
+                        />
+                        <VerticalTimeline
+                            year={"2016"}
+                            organization={"I-Break National Seminar"}
+                            role={"Design Coordinator"}
+                        />
+                         <VerticalTimeline
+                            year={"2016"}
+                            organization={"Annual Informatic Competition"}
+                            role={"Publication Committee"}
+                        />
+                         <VerticalTimeline
+                            year={"2015"}
+                            organization={"Pelatihan Dasar Komputer"}
+                            role={"Equipment and Tools Coordinator"}
+                        />
+
                     </div>
                     
                 </div>
@@ -218,15 +267,8 @@ class AboutMe extends Component {
                     <div class="field is-grouped is-grouped-multiline">
                         <div class="control">
                             <div class="tags has-addons">
-                            <span class="tag is-light">Januari 2016 - September 2016</span>
-                            <span class="tag is-info">Lokavor Studio-Programmer </span>
-                            </div>
-                        </div>
-
-                        <div class="control">
-                            <div class="tags has-addons">
-                            <span class="tag is-light">September 2017 - May 2017</span>
-                            <span class="tag is-success">AIESEC In Indonesia IT Developper Intern </span>
+                            <span class="tag is-light">February 2017 - October 2017</span>
+                            <span class="tag is-info">Lokavor Studio-Web Developer Intern </span>
                             </div>
                         </div>
 
@@ -239,8 +281,21 @@ class AboutMe extends Component {
                     </div>
                 </div>
                 <div class="achievement-honor">
-                    <h3 class="title is-3">Acievments & Honors</h3>
+                    <h3 class="title is-3">Acievements & Honors</h3>
                     <div class="field is-grouped is-grouped-multiline">
+                        
+                        <div class="control">
+                            <div class="tags has-addons">
+                            <span class="tag is-light">2017</span>
+                            <span class="tag is-info">Cumlaude</span>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="tags has-addons">
+                            <span class="tag is-light">2016</span>
+                            <span class="tag is-info">Best Public Relation Manager AIESEC in Diponegoro University</span>
+                            </div>
+                        </div>
                         <div class="control">
                             <div class="tags has-addons">
                             <span class="tag is-light">2016</span>
@@ -262,6 +317,9 @@ class AboutMe extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="achievement-honor">
+                    <h3 class="title is-3">Training & Courses</h3>
                 </div>
             </div>
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classes from './BlogStyles.module.scss';
-import cx from "classnames";
 import Card from '../../component/Card/Card.js';
 import Maintenance from '../../component/Maintenance/Maintenance';
 
@@ -13,7 +12,7 @@ class Blog extends Component {
 	}
     render() {
 		let content;
-		if(this.state.isMaintenance==true){
+		if(this.state.isMaintenance===true){
 			content = <Maintenance/>
 		}else{
 			content = 			

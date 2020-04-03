@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import classes from './PortofolioStyles.module.scss';
-import cx from "classnames";
 import Card from '../../component/Card/Card.js';
 import Maintenance from '../../component/Maintenance/Maintenance'
+
 class Portofolio extends Component {
 	constructor(){
 		super();
